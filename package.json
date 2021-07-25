@@ -1,0 +1,28 @@
+{
+  "name": "zxj-cli",
+  "version": "1.0.0",
+  "description": "众信佳前端脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "zxj-cli": "./bin/zxj.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zxj-cli"
+  ],
+  "author": "caisanli",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0"
+  }
+}
